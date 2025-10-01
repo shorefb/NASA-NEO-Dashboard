@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "rootDir": "server/src",
+    "outDir": "server/dist",
+    "lib": ["ES2020"],
+    "types": ["node"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noEmit": false
+  },
+  "include": ["server/src/**/*"],
+  "exclude": ["server/dist", "node_modules"]
+}
+
